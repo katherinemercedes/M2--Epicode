@@ -1,0 +1,13 @@
+Domande:
+
+1. Cos'è un algoritmo? Prova a spiegarlo con parole tue, come se lo dovessi spiegare a qualcuno che non ne capisce niente di informatica.
+2. Cos'è una variabile? Prova a spiegarlo con parole tue, come se lo dovessi spiegare a qualcuno che non ne capisce niente di informatica.
+3. undefined e null sono la stessa cosa (falso)
+
+Risposte:
+
+1. Un algoritmo è una seguenza di regole o azioni impostate in un determinato ordine con lo scopo di raggiungere un obbiettivo. Come i procedimenti necessari alla preparazione di una ricetta. 
+
+2. Una variabile rappresenta uno degli strumenti o ingredienti necessari alla preparazione della ricetta. Questi possono essere sia i contenitori di altri ingredienti sia gli ingredienti stessi. Le variabili ci permettono di elaborare successivamente gli ingredienti, permettendoci di farli interagire tra di loro attraverso delle operazioni di javascript e compiere le azioni necessarie a raggiungere l'obbiettivo o la ricetta prestabilita. 
+
+3. Undefined stabilisce che di una variabile non è stato specificato il suo valore. Riprendendo l'esempio della ricetta sarebbe come se sapendo che ci serve la farina non avessimo specificato quanta farina ci serve.
