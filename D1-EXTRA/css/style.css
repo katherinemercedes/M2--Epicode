@@ -327,16 +327,18 @@ header{
         min-height: 100px;
         display: flex;
         justify-content: space-between;
+        align-items: start;
     }
 
 
     .second-container .card_steps{
         width: 23%;
         min-height: 100px;
-        background: linear-gradient(to right, #2d27df 0%,#cb2376 100%);  
+        background: linear-gradient(45deg, #2d27df,#cb2376);  
         border-radius: 20px;
         padding: 3px;
     }
+
         .second-container .card_bcg{
             min-height: 200px;
             width: 100%;
