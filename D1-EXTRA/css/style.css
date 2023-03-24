@@ -194,12 +194,14 @@ header{
         }
 
         div.first-container-left h1{
-            font-size: 50px;
+            font-size: 51px;
             line-height: 65px;
         }
 
         div.first-container-left p{
-            font-size: 23px;
+            display: inline-block;
+            width: 570px;
+            font-size: 1.4em;
         }
 
         div.first-container-left ul{
