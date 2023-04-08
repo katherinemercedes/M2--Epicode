@@ -1,0 +1,88 @@
+    <!-- Il tuo compito è creare un sito e-commerce per Smartphones. L'homepage che stai per creare sarà la vetrina dei prodotti disponibili, con qualche informazione per ciascun prodotto. Non sono richieste funzionalità di carrello/cassa.
+
+    Completa gli esercizi dall'1 al 6 SOLAMENTE con HTML:
+    
+    ES.1: Inserisci un tag h1 con il nome del tuo negozio
+    
+    ES.2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+    
+    ES.3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+    
+    ES.4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+    
+    ES.5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+    
+    ES.6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire
+    nessuna "vera" funzionalità di post/salvataggio!) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DOM javascript exercise</title>
+</head>
+<body>
+        <h1 id="main-title">TUTTO A 1 EURO</h1>
+
+<!-- products -->
+    <div class="items-container">    
+        <div>
+            <h3>iphone 13 mini</h3>
+            <img src="../img/61cMQeVEGKL._AC_SL1500_.jpg" alt="product">
+            <p>Se stai cercando performance ottime sul tuo smartphone, iPhone 13 è la scelta giusta. Con il chip A15 bionic, tra gli iPhone Apple è il top di gamma e con una durata di batteria che è superata solo dalla batteria dell’iPhone 13 Pro. </p>
+            <p class="price">€779,99</p>
+            <p>Find me on <a class="link" href="https://www.amazon.it/Apple-iPhone-13-mini-128/dp/B09V4WL92M/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=386350GU4XD6S&k">Amazon</a></p>
+        </div>
+
+        <div>
+            <h3>Galaxy M13</h3>
+            <img src="../img/81PCqWLd8nL._AC_SL1500_.jpg" alt="product">
+            <p>Samsung Galaxy M13 Smartphone Android Display 6.6’’¹ FHD+ TFT LCD Batteria 5.000 mAh, Tripla fotocamera, RAM 4GB Memoria interna 64 GB² espandibile³, Orange [Versione italiana]</p>
+            <p class="price">€189,90</p>
+            <p>Find me on <a class="link" href="https://www.amazon.it/Smartphone-Batteria-fotocamera-espandibile%C2%B3-Esclusiva/dp/B0B252XN2L/ref=sr_1_10?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2VIUS1WOWY1U8&keywords=telefono&qid=1680863513&sprefix=telefono%2Caps%2C142&sr=8-10">Amazon</a></p>
+        </div>
+
+        <div>
+            <h3>Redmi 9C</h3>
+            <img src="../img/61ST9lkS6qL._AC_SL1200_.jpg" alt="product">
+            <p>L’uscita di iPhone 13 è stata a Novembre 2021. Se stai cercando performance ottime sul tuo smartphone, iPhone 13 è la scelta giusta. Con il chip A15 bionic, tra gli iPhone Apple è il top di gamma e con una durata di batteria che è superata solo dalla batteria dell’iPhone 13 Pro. </p>
+            <p class="price">€126,99</p>
+            <p>Find me on <a class="link" href="https://www.amazon.it/Xiaomi-Redmi-Smartphone-Fotocamera-Midnight/dp/B09DL2Z5H4/ref=sxin_16_ci_mcx_mi_sr_m_ts_mod_primary_new?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.48a786c7-cf0c-447f-ab43-73fac292f3e2%3Aamzn1.sym.48a786c7-cf0c-447f-ab43-73fac292f3e2&crid=2VIUS1WOWY1U8&cv_ct_cx=telefono&keywords=telefono&pd_rd_i=B09DL2Z5H4&pd_rd_r=619b49de-f848-4a91-91f4-dcd6ba7c5a97&pd_rd_w=M8Gen&pd_rd_wg=XOM7h&pf_rd_p=48a786c7-cf0c-447f-ab43-73fac292f3e2&pf_rd_r=MHV5DBKAHXK1ZD10X623&qid=1680863437&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=telefono%2Caps%2C142&sr=1-3-d8d8b8a8-006e-4060-801d-7ea508439501">Amazon</a></p>
+        </div>
+
+        <div>
+            <h3>Fairphone 4</h3>
+            <img src="../img/71MwuMru3sL._AC_SL1500_.jpg" alt="product">
+            <p>Il nostro telefono più sostenibile mai realizzato da Fairphone, ora con velocità 5G, 5 anni di garanzia e neutrale ai rifiuti elettronici. Scegli il Fairphone che fa per te.</p>
+            <p class="price">€579 </p>
+            <p>Find me on <a class="link" href="https://www.amazon.it/Fairphone-5G-256-GB-verde/dp/B09HHMPKN7/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1FF5QERAAM2B3&keywords=fairphone+4&qid=1680889419&sprefix=fairphone+%2Caps%2C142&sr=8-1">Amazon</a></p>
+        </div>
+
+        <div>
+            <h3>Red Magic 8 Pro</h3>
+            <img src="../img/REDMAGIC-8-Pro-Gaming-Smartphone-Matte-1 copia.jpg" alt="product">
+            <p>Flagship Chip Snapdragon 8 Gen 2 | True Full AMOLED Screen | ICE 11.0 Cooling System | 6000mAh Battery with 65W Fast Charging </p>
+            <p class="price">€649</p>
+            <p>Find me on <a class="link" href="#">Amazon</a></p>
+        </div>
+    </div>
+
+    <!-- comments section -->
+
+    <div class="comments-section">
+        <h6>let us know about your opinion!</h6>
+        <textarea name="comment-section" aria-label="comment-area" class="comment-area" cols="30" rows="10"></textarea>
+    </div>
+
+   <footer>
+        <div>TUTTO A 1 EURO</div>
+        <p id = "adress">Indirizzo della strada del negozio, n. 23 Città CAP Paese</p>
+   </footer> 
+    
+   <script src="../js/W3-P2.js"></script>
+</body>
+</html>
